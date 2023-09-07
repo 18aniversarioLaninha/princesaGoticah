@@ -1,0 +1,125 @@
+/* colettion.css */
+
+body {
+    background-color: rgba(0, 0, 0, 0.945);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(44, 44, 44);
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+    width: 100%; /* Ocupa toda a largura da página */
+}
+
+footer {
+    background-color: rgb(16, 16, 109);
+    text-align: center;
+    padding: 10px 0;
+    width: 100%; /* Ocupa toda a largura da página */
+}
+
+.quadradinho-container {
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+    width: 300px;
+    margin: 10px;
+}
+
+.quadradinho {
+    width: 300px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+
+.quadradinho1 {
+    background-image: url("/imagens/betterplayer.png");
+}
+
+.quadradinho2 {
+    background-image: url("/imagens/pilota.png"); 
+}
+
+.quadradinho3 {
+    background-image: url("/imagens/malicias.png");
+}
+
+.quadradinho4 {
+    background-image: url("/imagens/enganado.png");
+}
+
+.quadradinho5oficial {
+    background-image: url("/imagens/rec.png");
+}
+
+.quadradinho5 {
+    background-image: url("/imagens/conversaa.png");
+}
+
+.quadradinho6 {
+    background-image: url("/imagens/sidiverte.png");
+}
+
+.quadradinho7 {
+    background-image: url("/imagens/geladeira.png");
+}
+
+.quadradinho8 {
+    background-image: url("/imagens/sentados.png");
+}
+
+.quadradinho9 {
+    background-image: url("/imagens/coco.png");
+}
+
+#praca {
+    color: #fff;
+    background-color: rgb(146, 45, 45);
+}
+
+#game {
+    background: linear-gradient(to right, red, green);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-color: white; /* Adicionando um fundo branco */
+}
+
+#praia {
+    color: #030303;
+    background-color: rgba(248, 248, 1, 0.932);
+}
+
+h3 {
+    color: #fff;
+    margin-top: 10px; /* Adiciona espaço entre a imagem e o título */
+    clear: both; /* Certifica-se de que o elemento não fique ao lado das divs */
+}
+
+#senjutsu {
+    color: rgb(214, 4, 4);
+    background-color: rgb(44, 44, 44);
+    border-radius: 5px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+#central {
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 7px;
+}

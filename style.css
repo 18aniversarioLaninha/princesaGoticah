@@ -1,0 +1,66 @@
+:root {
+    --cor-fundo-body: rgba(0, 0, 0, 0.952);
+    --cor-border-nav: blue;
+    --footer: #793139;
+    --cor-bg-footer: rgb(243, 4, 231);
+}
+
+@font-face {
+    font-family: "MinhaFonte";
+    src: url("Achafexp.ttf") format("truetype");
+}
+
+body {
+    background-color: var(--cor-fundo-body);
+}
+
+header {
+    padding: 50px;
+    background-image: url('/imagens/head.jpeg');
+    background-position: center right;
+    background-size: cover;
+    height: 100px;
+}
+
+nav {
+    border-radius: 3px;
+    background-color: #fff;
+    background-image: url('/imagens/nav1.jpg');
+    background-position: bottom left;
+    background-size: cover;
+    padding: 3px;
+}
+
+#central {
+    background-color: #fff;
+    max-width: 600px;
+    max-height: 500px;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+p {
+    text-indent: 2px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a {
+    color: #fff;
+    padding: 3px;
+    font-size: 1.1em;
+    margin-left: 10px;
+}
+
+/* Adicione um espaço entre a div central e o footer */
+footer {
+    color: #fff;
+    background-color: rgb(66, 66, 66);
+    clear: both;
+    text-align: center;
+    padding: 3px;
+    width: 100%;
+    margin-top: 20px; /* Ajuste este valor conforme necessário */
+}

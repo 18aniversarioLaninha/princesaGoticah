@@ -1,0 +1,103 @@
+:root {
+    --cor-fundo-body: rgba(0, 0, 0, 0.952);
+    --cor-border-nav: blue;
+    --footer: #793139;
+    --cor-bg-footer: rgb(243, 4, 231);
+}
+
+@font-face {
+    font-family: "MinhaFonte";
+    src: url("Achafexp.ttf") format("truetype");
+}
+
+body {
+    background-color: var(--cor-fundo-body);
+    margin: 0; /* Remove default margin */
+  
+}
+
+#central {
+    background-color: #fff;
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column; /* Arrange children vertically */
+    align-items: center; /* Center children horizontally */
+    justify-content: center; /* Center children vertically */
+}
+
+img {
+    max-width: 100%; /* Ensure images don't exceed the container width */
+    max-height: 300px; /* Set the maximum height for the images */
+    width: 400px;
+    height: auto; /* Maintain aspect ratio of images */
+}
+
+
+a {
+    text-decoration: none;
+    color: blue; /* Change link color */
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.abaixo {
+    font-size: 13px;
+}
+
+.abaixo3{
+    font-size: 15px;
+}
+
+.three {
+    color: black;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    
+}
+
+#nina {
+    background-color: orange;
+}
+#kip {
+    background-color: rgb(58, 58, 58);
+    color: #fff;
+}
+
+#floco {
+    background-color: rgb(6, 232, 240);
+    
+}
+
+#perta {
+    background-color: beige;
+}
+
+#koke {
+    background-color: rgb(168, 85, 8);
+}
+
+#chuto {
+    background-color: rgb(6, 232, 240);
+}
+
+
+#night{
+    text-align: center;
+    background-color: blue; 
+    width: 100%;
+
+}
+#predio {
+    max-width: 100%; /* Ensure images don't exceed the container width */
+    max-height: 300px; /* Set the maximum height for the images */
+    width: 250px;
+    height: auto; /* Maintain aspect ratio of images */
+}
+

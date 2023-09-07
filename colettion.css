@@ -1,0 +1,78 @@
+/* colettion.css */
+
+body {
+    background-color: rgba(0, 0, 0, 0.945);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(44, 44, 44);
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+    width: 100%; /* Ocupa toda a largura da página */
+}
+
+footer {
+    background-color: rgb(16, 16, 109);
+    text-align: center;
+    padding: 10px 0;
+    width: 100%; /* Ocupa toda a largura da página */
+}
+
+.quadradinho-container {
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+    width: 300px;
+    margin: 10px;
+}
+
+.quadradinho {
+    width: 300px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+
+.quadradinho1 {
+    background-image: url("/imagens/c1.png");
+}
+
+.quadradinho2 {
+    background-image: url("/imagens/ozzy.png"); 
+}
+
+.quadradinho3 {
+    background-image: url("/imagens/c3o.png");
+}
+
+h3 {
+    color: #fff;
+    margin-top: 10px; /* Adiciona espaço entre a imagem e o título */
+}
+
+#senjutsu {
+    color: rgb(214, 4, 4);
+    background-color: rgb(44, 44, 44);
+    border-radius: 5px;
+}
+
+#iron {
+    background-color: rgba(0, 0, 255, 0.89);
+    border-radius: 5px;
+}
+
+#ozzy {
+    border-radius: 5px;
+    color: rgb(214, 4, 4);
+    background-color: rgb(241, 199, 12);
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}

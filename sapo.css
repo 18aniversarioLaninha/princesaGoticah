@@ -1,0 +1,34 @@
+/* Estilos do header */
+
+body {
+    background-color: black;
+}
+
+header {
+    margin: 0;
+    padding: 50px;
+    background-image: url('/imagens/headerf.jpg');
+    background-position: center right;
+    background-size: cover;
+    height: 100px;
+}
+
+nav {
+    border-radius: 3px;
+    background-color: #0a0a0a;
+    padding: 3px;
+}
+
+nav a {
+    color: rgba(190, 190, 34, 0.973);
+    margin-left: 5px;
+}
+
+/* Estilos do iframe */
+iframe {
+    width: 100%;
+    height: calc(100vh - 150px); /* Ajuste a subtração de acordo com a altura do seu header */
+    margin: auto;
+    display: block;
+    border: none; /* Opcional para remover a borda do iframe */
+}
